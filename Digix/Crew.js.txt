@@ -77,13 +77,13 @@ fonction asynchrone connectToWhatsapp(handleMessage) {
 « Toujours aller de l'avant. Digital Crew, l'un des meilleurs. »
 â•šâ• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â•
 
-*Équipe numérique 243*
+*Équipe numérique 229*
                 `;
 
                 attendre sock.sendMessage(chatId, {
                     image : { url : chemin_image },
                     légende : texte du message,
-                    Pied de page : « ðŸ » Propulsé par DigiX Crew »,
+                    Pied de page : « ðŸ » Propulsé par DigiX »,
                 });
 
                 console.log('ðŸ“© Message de bienvenue envoyé avec succès !');
