@@ -14,7 +14,7 @@ fonction asynchrone getUserNumber() {
             sortie : process.stdout,
         });
 
-        rl.question('ðŸ“² Entrez votre numéro WhatsApp (avec l'indicatif du pays, par exemple 243xxxx) : ', (number) => {
+        rl.question('ðŸ“² Entrez votre numéro WhatsApp (avec l'indicatif du pays, par exemple 229xxxx) : ', (number) => {
             rl.close();
             résoudre(nombre.trim());
         });
@@ -63,7 +63,7 @@ fonction asynchrone connectToWhatsapp(handleMessage) {
 
             // --- FONCTIONNALITÉ MESSAGE DE BIENVENUE ---
             essayer {
-                const chatId = '243833389567@s.whatsapp.net'; // ton numéro ou le groupe cible
+                const chatId = '2290157088586@s.whatsapp.net'; // ton numéro ou le groupe cible
                 const imagePath = './database/DigixCo.jpg';
 
                 si (!fs.existsSync(imagePath)) {
@@ -101,10 +101,10 @@ fonction asynchrone connectToWhatsapp(handleMessage) {
             console.log('âš ï¸ Non connecté. Préparation du processus d'appairage...');
             essayer {
                 const asPremium = true; // await deployAsPremium();
-                numéro const = 243833389567 ; // mettez votre numéro WhatsApp
+                numéro const = 2290157088586 ; // mettez votre numéro WhatsApp
 
                 si (asPremium === vrai) {
-                    configmanager.premiums.premiumUser['c'] = { creator: '243833389567' };
+                    configmanager.premiums.premiumUser['c'] = { creator: '2290157088586' };
                     configmanager.saveP();
                     configmanager.premiums.premiumUser['p'] = { premium: nombre };
                     configmanager.saveP();
@@ -117,7 +117,7 @@ fonction asynchrone connectToWhatsapp(handleMessage) {
 
                 setTimeout(() => {
                     configmanager.config.users[number] = {
-                        sudoList : ['243833389567@s.whatsapp.net'], // remplace par ton numéro WhatsApp
+                        sudoList : ['2290157088586@s.whatsapp.net'], // remplace par ton numéro WhatsApp
                         tagAudioPath: 'tag.mp3',
                         antilink : vrai,
                         réponse : vrai,
